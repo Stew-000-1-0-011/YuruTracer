@@ -1,0 +1,14 @@
+CompileFlags:
+  Add:
+    - --target=arm-none-eabi
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -std=c++26
+    - -isystemDrivers/CMSIS/Include/
+    - -isystemDrivers/CMSIS/Device/ST/STM32F1xx/Include/
+    - -isystemDrivers/STM32F1xx_HAL_Driver/Inc/
+    - -ICore/Inc/
+    - -DDEBUG
+    - -DSTM32F103xB
+  Compiler: C:/msys64/ucrt64/bin/arm-none-eabi-g++.exe
